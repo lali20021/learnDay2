@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="answer"></p>
+
+<script>
+function myFunction() {
+  var answers = Math.floor((Math.random() * 5) + 1);
+  document.getElementById("answer").innerHTML = answers;
+}
+</script>
+
+</body>
+</html>
